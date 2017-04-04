@@ -26,5 +26,10 @@ namespace Sound_Learning_For_Kids
         {
             this.InitializeComponent();
         }
+
+        public void btn_click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage), null);
+        }
     }
 }

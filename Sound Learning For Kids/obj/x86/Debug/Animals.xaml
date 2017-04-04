@@ -8,9 +8,19 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Animals" FontSize="40" FontWeight="Bold"></TextBlock>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="Enter" Margin="0 100 0 0"></Button>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Text="Animals" FontSize="40" FontWeight="Bold"></TextBlock>
+        <Button x:ConnectionId='1' HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0"                  ></Button>
 
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Button HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assest/Images/lion.jpeg" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <Button>Cat</Button>
+            <Button>Dog</Button>
+            <Button>Pig</Button>
+        </StackPanel>
     </Grid>
 </Page>
 

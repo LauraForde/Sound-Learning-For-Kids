@@ -24,6 +24,17 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="Sound_Learning_For_Kids.Animals" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
