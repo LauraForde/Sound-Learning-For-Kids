@@ -31,5 +31,9 @@ namespace Sound_Learning_For_Kids
         {
             Frame.Navigate(typeof(MainPage), null);
         }
+        public void lion_click(object sender, RoutedEventArgs e)
+        {
+            lion.Play();
+        }
     }
 }

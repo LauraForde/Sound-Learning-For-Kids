@@ -346,6 +346,18 @@
     <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\pig.jpeg">
       <PackagePath>Assets\Images\pig.jpeg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Cat.wav">
+      <PackagePath>Assets\Sounds\Cat.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Dog.wav">
+      <PackagePath>Assets\Sounds\Dog.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Lion.wav">
+      <PackagePath>Assets\Sounds\Lion.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Pigs.wav">
+      <PackagePath>Assets\Sounds\Pigs.wav</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

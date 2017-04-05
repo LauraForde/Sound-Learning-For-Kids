@@ -8,18 +8,46 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Text="Animals" FontSize="40" FontWeight="Bold"></TextBlock>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0" Click="btn_click"></Button>
-
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-            <Button HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Assest/Images/lion.jpeg" Stretch="Fill"/>
-                </Button.Background>
-            </Button>
-            <Button>Cat</Button>
-            <Button>Dog</Button>
-            <Button>Pig</Button>
-        </StackPanel>
+        <MediaElement Source="/Assets/Sounds/Lion.wav" AutoPlay="False" Name="lion"/>
+        
+        <ScrollViewer>
+            <Grid x:Name="ButtonGrid" Height="1000">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Animals" FontSize="40" FontWeight="Bold" Margin="10 0 10 15" Grid.RowSpan="2"></TextBlock>
+            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button Click="lion_click">
+                    <Image Source="/Assets/Images/lion.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button>
+                    <Image Source="/Assets/Images/cat.jpg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button>
+                    <Image Source="/Assets/Images/dog.jpg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button>
+                    <Image Source="/Assets/Images/pig.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0" Click="btn_click"/>
+        
+        </Grid>
+     </ScrollViewer>
     </Grid>
 </Page>
