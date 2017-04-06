@@ -9,43 +9,143 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <MediaElement Source="/Assets/Sounds/Lion.wav" AutoPlay="False" Name="lion"/>
+        <MediaElement Source="/Assets/Sounds/Cat.wav" AutoPlay="False" Name="cat"/>
+        <MediaElement Source="/Assets/Sounds/Dog.wav" AutoPlay="False" Name="dog"/>
+        <MediaElement Source="/Assets/Sounds/Pigs.wav" AutoPlay="False" Name="pig"/>
+        <MediaElement Source="/Assets/Sounds/Bear.wav" AutoPlay="False" Name="bear"/>
+        <MediaElement Source="/Assets/Sounds/Bees.wav" AutoPlay="False" Name="bee"/>
+        <MediaElement Source="/Assets/Sounds/Chicken.wav" AutoPlay="False" Name="chicken"/>
+        <MediaElement Source="/Assets/Sounds/Cow.wav" AutoPlay="False" Name="cow"/>
+        <MediaElement Source="/Assets/Sounds/Duck.wav" AutoPlay="False" Name="duck"/>
+        <MediaElement Source="/Assets/Sounds/Elephant.wav" AutoPlay="False" Name="elephant"/>
+        <MediaElement Source="/Assets/Sounds/Frog.wav" AutoPlay="False" Name="frog"/>
+        <MediaElement Source="/Assets/Sounds/Geese.wav" AutoPlay="False" Name="geese"/>
+        <MediaElement Source="/Assets/Sounds/Gorilla.wav" AutoPlay="False" Name="gorilla"/>
+        <MediaElement Source="/Assets/Sounds/Horse.wav" AutoPlay="False" Name="horse"/>
+        <MediaElement Source="/Assets/Sounds/Kookaburra.wav" AutoPlay="False" Name="kook"/>
+        <MediaElement Source="/Assets/Sounds/Owl.wav" AutoPlay="False" Name="owl"/>
+        <MediaElement Source="/Assets/Sounds/Sheep.wav" AutoPlay="False" Name="sheep"/>
+        <MediaElement Source="/Assets/Sounds/Turkey.wav" AutoPlay="False" Name="turkey"/>
         
         <ScrollViewer>
-            <Grid x:Name="ButtonGrid" Height="1000">
+            <Grid x:Name="ButtonGrid" Height="4000">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="200"/>
-            </Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
                 <ColumnDefinition Width="350"/>
-                <ColumnDefinition Width="100"/>
-            </Grid.ColumnDefinitions>
+                </Grid.ColumnDefinitions>
             <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Animals" FontSize="40" FontWeight="Bold" Margin="10 0 10 15" Grid.RowSpan="2"></TextBlock>
             <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button Click="lion_click">
-                    <Image Source="/Assets/Images/lion.jpeg" Stretch="UniformToFill"/>
+                <Button Click="lion_click" Margin="0 ">
+                    <Image Source="/Assets/Images/lion.jpeg" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button>
+                <Button Click="cat_click">
                     <Image Source="/Assets/Images/cat.jpg" Stretch="UniformToFill"/>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button>
+                <Button Click="dog_click">
                     <Image Source="/Assets/Images/dog.jpg" Stretch="UniformToFill"/>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button>
+                <Button Click="pig_click">
                     <Image Source="/Assets/Images/pig.jpeg" Stretch="UniformToFill"/>
                 </Button>
             </StackPanel>
-            <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0" Click="btn_click"/>
+            <StackPanel Grid.Row="5" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button Click="bear_click">
+                    <Image Source="/Assets/Images/bear.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="6" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button Click="bee_click">
+                    <Image Source="/Assets/Images/bee.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button Click="chicken_click">
+                    <Image Source="/Assets/Images/chicken.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+                <StackPanel Grid.Row="8" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="cow_click">
+                        <Image Source="/Assets/Images/cow.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="9" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="duck_click">
+                        <Image Source="/Assets/Images/duck.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="10" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="elephant_click">
+                        <Image Source="/Assets/Images/elephant.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="11" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="frog_click">
+                        <Image Source="/Assets/Images/frog.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="12" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="geese_click">
+                        <Image Source="/Assets/Images/goose.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="13" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="gorilla_click">
+                        <Image Source="/Assets/Images/gorilla.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="14" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="horse_click">
+                        <Image Source="/Assets/Images/horse.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="15" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="kook_click">
+                        <Image Source="/Assets/Images/kookaburra.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="16" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="owl_click">
+                        <Image Source="/Assets/Images/owl.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="17" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="sheep_click">
+                        <Image Source="/Assets/Images/sheep.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="18" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button Click="turkey_click">
+                        <Image Source="/Assets/Images/turkey.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0" Click="btn_click"/>
         
         </Grid>
      </ScrollViewer>

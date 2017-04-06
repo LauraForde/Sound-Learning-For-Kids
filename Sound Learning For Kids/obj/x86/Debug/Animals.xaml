@@ -9,43 +9,143 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <MediaElement x:ConnectionId='1' Source="/Assets/Sounds/Lion.wav" AutoPlay="False" Name="lion"/>
+        <MediaElement x:ConnectionId='2' Source="/Assets/Sounds/Cat.wav" AutoPlay="False" Name="cat"/>
+        <MediaElement x:ConnectionId='3' Source="/Assets/Sounds/Dog.wav" AutoPlay="False" Name="dog"/>
+        <MediaElement x:ConnectionId='4' Source="/Assets/Sounds/Pigs.wav" AutoPlay="False" Name="pig"/>
+        <MediaElement x:ConnectionId='5' Source="/Assets/Sounds/Bear.wav" AutoPlay="False" Name="bear"/>
+        <MediaElement x:ConnectionId='6' Source="/Assets/Sounds/Bees.wav" AutoPlay="False" Name="bee"/>
+        <MediaElement x:ConnectionId='7' Source="/Assets/Sounds/Chicken.wav" AutoPlay="False" Name="chicken"/>
+        <MediaElement x:ConnectionId='8' Source="/Assets/Sounds/Cow.wav" AutoPlay="False" Name="cow"/>
+        <MediaElement x:ConnectionId='9' Source="/Assets/Sounds/Duck.wav" AutoPlay="False" Name="duck"/>
+        <MediaElement x:ConnectionId='10' Source="/Assets/Sounds/Elephant.wav" AutoPlay="False" Name="elephant"/>
+        <MediaElement x:ConnectionId='11' Source="/Assets/Sounds/Frog.wav" AutoPlay="False" Name="frog"/>
+        <MediaElement x:ConnectionId='12' Source="/Assets/Sounds/Geese.wav" AutoPlay="False" Name="geese"/>
+        <MediaElement x:ConnectionId='13' Source="/Assets/Sounds/Gorilla.wav" AutoPlay="False" Name="gorilla"/>
+        <MediaElement x:ConnectionId='14' Source="/Assets/Sounds/Horse.wav" AutoPlay="False" Name="horse"/>
+        <MediaElement x:ConnectionId='15' Source="/Assets/Sounds/Kookaburra.wav" AutoPlay="False" Name="kook"/>
+        <MediaElement x:ConnectionId='16' Source="/Assets/Sounds/Owl.wav" AutoPlay="False" Name="owl"/>
+        <MediaElement x:ConnectionId='17' Source="/Assets/Sounds/Sheep.wav" AutoPlay="False" Name="sheep"/>
+        <MediaElement x:ConnectionId='18' Source="/Assets/Sounds/Turkey.wav" AutoPlay="False" Name="turkey"/>
         
         <ScrollViewer>
-            <Grid x:ConnectionId='2' x:Name="ButtonGrid" Height="1000">
+            <Grid x:ConnectionId='19' x:Name="ButtonGrid" Height="4000">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="200"/>
                 <RowDefinition Height="200"/>
-            </Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
                 <ColumnDefinition Width="350"/>
-                <ColumnDefinition Width="100"/>
-            </Grid.ColumnDefinitions>
+                </Grid.ColumnDefinitions>
             <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Animals" FontSize="40" FontWeight="Bold" Margin="10 0 10 15" Grid.RowSpan="2"></TextBlock>
             <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button x:ConnectionId='4'                   >
-                    <Image Source="/Assets/Images/lion.jpeg" Stretch="UniformToFill"/>
+                <Button x:ConnectionId='38'                    Margin="0 ">
+                    <Image Source="/Assets/Images/lion.jpeg" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button>
+                <Button x:ConnectionId='37'                  >
                     <Image Source="/Assets/Images/cat.jpg" Stretch="UniformToFill"/>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button>
+                <Button x:ConnectionId='36'                  >
                     <Image Source="/Assets/Images/dog.jpg" Stretch="UniformToFill"/>
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
-                <Button>
+                <Button x:ConnectionId='35'                  >
                     <Image Source="/Assets/Images/pig.jpeg" Stretch="UniformToFill"/>
                 </Button>
             </StackPanel>
-            <Button x:ConnectionId='3' HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0"                  />
+            <StackPanel Grid.Row="5" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button x:ConnectionId='34'                   >
+                    <Image Source="/Assets/Images/bear.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="6" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button x:ConnectionId='33'                  >
+                    <Image Source="/Assets/Images/bee.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                <Button x:ConnectionId='32'                      >
+                    <Image Source="/Assets/Images/chicken.jpeg" Stretch="UniformToFill"/>
+                </Button>
+            </StackPanel>
+                <StackPanel Grid.Row="8" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='31'                  >
+                        <Image Source="/Assets/Images/cow.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="9" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='30'                   >
+                        <Image Source="/Assets/Images/duck.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="10" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='29'                       >
+                        <Image Source="/Assets/Images/elephant.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="11" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='28'                   >
+                        <Image Source="/Assets/Images/frog.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="12" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='27'                    >
+                        <Image Source="/Assets/Images/goose.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="13" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='26'                      >
+                        <Image Source="/Assets/Images/gorilla.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="14" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='25'                    >
+                        <Image Source="/Assets/Images/horse.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="15" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='24'                   >
+                        <Image Source="/Assets/Images/kookaburra.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="16" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='23'                  >
+                        <Image Source="/Assets/Images/owl.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="17" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='22'                    >
+                        <Image Source="/Assets/Images/sheep.jpeg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Row="18" Grid.Column="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10 0 10 15">
+                    <Button x:ConnectionId='21'                     >
+                        <Image Source="/Assets/Images/turkey.jpg" Stretch="UniformToFill"/>
+                    </Button>
+                </StackPanel>
+                <Button x:ConnectionId='20' HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Back to main page" Margin="0 100 0 0"                  />
         
         </Grid>
      </ScrollViewer>

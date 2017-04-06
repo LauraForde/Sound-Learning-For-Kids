@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e058a78b-8cfb-44a1-a6de-2fe5739619f7</PackageIdentityName>
     <PackageIdentityPublisher>CN=Laura</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Sound Learning For Kids.exe">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Sound Learning For Kids.exe">
       <PackagePath>entrypoint\Sound Learning For Kids.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -334,71 +334,167 @@
     <AppxPackagedFile Include="C:\Users\Laura\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\cat.jpg">
-      <PackagePath>Assets\Images\cat.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\bear.jpeg">
+      <PackagePath>Assets\Images\bear.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\dog.jpg">
-      <PackagePath>Assets\Images\dog.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\bee.jpeg">
+      <PackagePath>Assets\Images\bee.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\lion.jpeg">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\chicken.jpeg">
+      <PackagePath>Assets\Images\chicken.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\cow.jpeg">
+      <PackagePath>Assets\Images\cow.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\goose.jpeg">
+      <PackagePath>Assets\Images\goose.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\gorilla.jpeg">
+      <PackagePath>Assets\Images\gorilla.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\horse.jpeg">
+      <PackagePath>Assets\Images\horse.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\kookaburra.jpeg">
+      <PackagePath>Assets\Images\kookaburra.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\lion.jpeg">
       <PackagePath>Assets\Images\lion.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\pig.jpeg">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\pig.jpeg">
       <PackagePath>Assets\Images\pig.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Cat.wav">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\sheep.jpeg">
+      <PackagePath>Assets\Images\sheep.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\cat.jpg">
+      <PackagePath>Assets\Images\cat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\dog.jpg">
+      <PackagePath>Assets\Images\dog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\duck.jpg">
+      <PackagePath>Assets\Images\duck.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\elephant.jpg">
+      <PackagePath>Assets\Images\elephant.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\frog.jpg">
+      <PackagePath>Assets\Images\frog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\goat.jpg">
+      <PackagePath>Assets\Images\goat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\owl.jpg">
+      <PackagePath>Assets\Images\owl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Images\turkey.jpg">
+      <PackagePath>Assets\Images\turkey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Bear.wav">
+      <PackagePath>Assets\Sounds\Bear.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Bees.wav">
+      <PackagePath>Assets\Sounds\Bees.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Cat.wav">
       <PackagePath>Assets\Sounds\Cat.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Dog.wav">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Chicken.wav">
+      <PackagePath>Assets\Sounds\Chicken.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Cow.wav">
+      <PackagePath>Assets\Sounds\Cow.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Dog.wav">
       <PackagePath>Assets\Sounds\Dog.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Lion.wav">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Duck.wav">
+      <PackagePath>Assets\Sounds\Duck.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Eagle.wav">
+      <PackagePath>Assets\Sounds\Eagle.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Elephant.wav">
+      <PackagePath>Assets\Sounds\Elephant.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Frog.wav">
+      <PackagePath>Assets\Sounds\Frog.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Geese.wav">
+      <PackagePath>Assets\Sounds\Geese.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Goat.wav">
+      <PackagePath>Assets\Sounds\Goat.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Gorilla.wav">
+      <PackagePath>Assets\Sounds\Gorilla.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Horse.wav">
+      <PackagePath>Assets\Sounds\Horse.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Kookaburra.wav">
+      <PackagePath>Assets\Sounds\Kookaburra.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Lion.wav">
       <PackagePath>Assets\Sounds\Lion.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Pigs.wav">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Mouse.wav">
+      <PackagePath>Assets\Sounds\Mouse.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Owl.wav">
+      <PackagePath>Assets\Sounds\Owl.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Pigs.wav">
       <PackagePath>Assets\Sounds\Pigs.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Sheep.wav">
+      <PackagePath>Assets\Sounds\Sheep.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Sounds\Turkey.wav">
+      <PackagePath>Assets\Sounds\Turkey.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Sound Learning For Kids.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Sound Learning For Kids.xr.xml">
       <PackagePath>Sound Learning For Kids.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\Documents\Visual Studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Core\Sound Learning For Kids.exe">
+    <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Core\Sound Learning For Kids.exe">
       <PackagePath>Sound Learning For Kids.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
