@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-06T14:33:43.282</Modified>
+      <Modified>2017-04-06T18:23:14.788</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Sound Learning For Kids.exe">
       <PackagePath>entrypoint\Sound Learning For Kids.exe</PackagePath>
-      <Modified>2017-04-06T14:33:40.611</Modified>
+      <Modified>2017-04-06T18:23:08.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -648,7 +648,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Sound Learning For Kids.xr.xml">
       <PackagePath>Sound Learning For Kids.xr.xml</PackagePath>
-      <Modified>2017-04-06T14:09:27.995</Modified>
+      <Modified>2017-04-06T18:23:07.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -657,11 +657,11 @@
     <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-06T14:33:42.630</Modified>
+      <Modified>2017-04-06T18:23:13.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\documents\visual studio 2015\Projects\Sound Learning For Kids\Sound Learning For Kids\bin\x86\Debug\Core\Sound Learning For Kids.exe">
       <PackagePath>Sound Learning For Kids.exe</PackagePath>
-      <Modified>2017-04-06T14:33:43.265</Modified>
+      <Modified>2017-04-06T18:23:14.759</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
