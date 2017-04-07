@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Text="Welcome" FontSize="40" FontWeight="Bold"></TextBlock>
-        <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="350"></TextBox>
+        <TextBox PlaceholderText="Enter your name here" x:Name="nameText" HorizontalAlignment="Center" VerticalAlignment="Center" Width="350" TextChanged="TextBox_TextChanged"></TextBox>
         <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="Enter" Margin="0 100 0 0" Click="btn_click"></Button>
     </Grid>
 </Page>
